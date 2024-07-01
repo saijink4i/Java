@@ -1,4 +1,4 @@
-package Paiza.C;
+package Inhoe.Paiza.C;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package Paiza.C;
+package Inhoe.Paiza.C;
 
 import java.util.ArrayList;
 import java.util.Collections;

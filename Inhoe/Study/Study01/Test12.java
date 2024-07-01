@@ -1,10 +1,10 @@
-package Study1;
+package Inhoe.Study.Study01;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class test12 {
+public class Test12 {
     public static void main(String args[]) throws IOException {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
