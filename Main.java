@@ -1,50 +1,40 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
 public class Main {
     public static void main(String args[]) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        // 단서 갯수(N)을 입력받음
-        int number = Integer.parseInt(br.readLine());
-        // 약수 리스트를 선언
-        List<Integer> divisorList = new ArrayList<Integer>();
-        int min = Integer.MIN_VALUE;
-        int max = Integer.MAX_VALUE;
-        for(int i = 0; i < number; i++) {
-            String textList[] = br.readLine().split(" ");
-            // 이상 조건중에서 최대값으로 설정
-            if(textList[0].equals(">")){
-                if(min < Integer.parseInt(textList[1])){
-                    min = Integer.parseInt(textList[1]);
-                }
-            // 이하 조건중에서 최솟값으로 설정
-            }else if(textList[0].equals("<")){
-                if(max > Integer.parseInt(textList[1])){
-                    max = Integer.parseInt(textList[1]);
-                }
-            // 약수라면 약수리스트에 추가
-            }else if(textList[0].equals("/")){
-                divisorList.add(Integer.parseInt(textList[1]));
-            }
+        // 레시피 갯수
+        int recipeNumber = Integer.parseInt(br.readLine());
+        // 레시피를 보존
+        Map<String, Integer> recipeMap = new HashMap<String, Integer>();
+        for(int i = 0; i < recipeNumber; i++){
+            String temp[] = br.readLine().split(" ");
+            recipeMap.put(temp[0], Integer.parseInt(temp[1]));
         }
 
-        int result = 0;
-        for(int i = min+1 ; i < max ; i++) {
-            boolean temp = true;
-            // 모든 약수 조건에 참일경우에 반복문 빠져나옴
-            for(int j=0 ; j<divisorList.size() ; j++) {
-                if(i%divisorList.get(j) != 0)
-                    temp = false;
-            }
-
-            if(temp){
-                result = i;
-                break;
+        int itemNumber = Integer.parseInt(br.readLine());
+        int result = Integer.MAX_VALUE;
+        for(int i = 0; i < itemNumber; i++){
+            // 가지고 있는 아이템
+            String item[] = br.readLine().split(" ");
+            // 레시피에 없는 아이템은 스킵
+            if(!recipeMap.containsKey(item[0])){
+                continue;
+            // 레시피에 있는 아이템은 레시피와 비교해서 몇개 만들수있는지 최솟값을 결과값으로 보존
+            }else {
+                int temp = Integer.parseInt(item[1])/recipeMap.get(item[0]);
+                if(result > temp)
+                    result = temp;
             }
         }
+        // 만약 레시피에 있는 재료가 하나도 없었을경우
+        if(result == Integer.MAX_VALUE)
+            result = 0;
+            
         System.out.println(result);
     }
 }
