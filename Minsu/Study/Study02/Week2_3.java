@@ -1,4 +1,4 @@
-package Week2;
+package Minsu.Study.Study02;
 
 import java.io.BufferedReader;
 import java.io.IOException;

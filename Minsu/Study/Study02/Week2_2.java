@@ -1,9 +1,10 @@
-package Week2;
+package Minsu.Study.Study02;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Week2_2 {
 	public static void main(String[] args) throws IOException {
@@ -11,7 +12,7 @@ public class Week2_2 {
         
         String rod = br.readLine();
         int n = Integer.parseInt(rod);
-        var tempArr = new ArrayList<String>();
+        List<String> tempArr = new ArrayList<String>();
         
         for(int i = 0; i < n; i++) {
         	tempArr.add(br.readLine());

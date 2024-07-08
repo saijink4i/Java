@@ -1,4 +1,4 @@
-package Byunin.week02;
+package Byunin.Study.Study02;
 
 import java.io.BufferedReader;
 import java.io.IOException;
