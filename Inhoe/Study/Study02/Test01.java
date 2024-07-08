@@ -6,6 +6,10 @@ import java.io.InputStreamReader;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
+/*
+ *  정답 판정 : X
+ */
+
 public class Test01 {
     public static void main(String args[]) throws IOException {
 

@@ -6,6 +6,10 @@ import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
 
+/*
+ *  정답 판정 : X
+ */
+
 public class Test10 {
     public static void main(String args[]) throws IOException {
 

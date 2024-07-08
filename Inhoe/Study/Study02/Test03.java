@@ -4,6 +4,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/*
+ *  정답 판정 : O
+ */
+
 public class Test03 {
     public static void main(String args[]) throws IOException {
 

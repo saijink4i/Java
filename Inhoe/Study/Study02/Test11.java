@@ -6,6 +6,10 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.stream.Stream;
 
+/*
+ *  정답 판정 : O
+ */
+
 public class Test11 {
     public static void main(String args[]) throws IOException {
 

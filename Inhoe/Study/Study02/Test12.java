@@ -7,6 +7,10 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
+/*
+ *  정답 판정 : O
+ */
+
 public class Test12 {
     public static void main(String args[]) throws IOException {
 

@@ -7,6 +7,10 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
+/*
+ *  정답 판정 : O
+ */
+
 public class Test02 {
     public static void main(String args[]) throws IOException {
 

@@ -7,6 +7,10 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
+/*
+ *  정답 판정 : O
+ */
+
 public class Test05 {
     public static void main(String args[]) throws IOException {
 

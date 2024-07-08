@@ -7,6 +7,10 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.stream.Stream;
 
+/*
+ *  정답 판정 : O
+ */
+
 public class Test15 {
     public static void main(String args[]) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
