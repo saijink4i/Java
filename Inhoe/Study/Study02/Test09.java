@@ -22,7 +22,6 @@ public class Test09 {
         for(int i=peaple-1 ; i >= 0 ; i--){
             int heroPower = Integer.parseInt(heroPowerList[i]);
             int monster = Integer.parseInt(cityList[i+1]);
-            // System.out.println("["+ i + "] heroPower : " + heroPower + ", monster : " + monster);
 
             if(heroPower >= monster){
                 sum += monster;

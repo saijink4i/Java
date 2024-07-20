@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.Set;
 
 /*
- *  결과 : 오답
+ *  결과 : 정답
  */
 
 public class Test13 {
@@ -43,7 +43,10 @@ public class Test13 {
         int result = 0;
         for(int i=0 ; i<number ; i++) {
             if(resultTemp[i] == "*")
-                resultTemp[i] = "0";
+                if(i == 0 && number != 1)
+                    resultTemp[i] = "1";
+                else
+                    resultTemp[i] = "0";
             result = result * 10 + Integer.parseInt(resultTemp[i]);
         }
 
