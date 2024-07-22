@@ -47,7 +47,7 @@ public class number03 {
             }
         }
 
-        int totalCount = 0;
+        long totalCount = 0L;
         for (int i = 0; i < n; i++) {
             totalCount += bValueCount.getOrDefault(a.get(i), 0);
         }

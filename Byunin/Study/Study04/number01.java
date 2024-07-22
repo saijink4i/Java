@@ -21,7 +21,7 @@ public class number01 {
         for (int i = 0; i < n; i++) {
             int k = list[i] % 200; //둘의 차가 200의 배수라는것은 각 숫자가 200을 나누었을 때 나머지 값이 같다는 뜻
             countP += count[k]; //나머지이론 참조
-           count[k]++;
+            count[k]++;
         }
 
         System.out.println(countP);
