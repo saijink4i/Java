@@ -4,6 +4,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/*
+ *  결과 : 오답
+ */
+
 public class Test08 {
     static int count = 0;
     public static void main(String[] args) throws IOException {
