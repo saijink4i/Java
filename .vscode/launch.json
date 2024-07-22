@@ -1,0 +1,812 @@
+{
+    // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+    // 기존 특성에 대한 설명을 보려면 가리킵니다.
+    // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "number01",
+            "request": "launch",
+            "mainClass": "Byunin.Study.Study02.number01",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "number02",
+            "request": "launch",
+            "mainClass": "Byunin.Study.Study02.number02",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "number03",
+            "request": "launch",
+            "mainClass": "Byunin.Study.Study02.number03",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "number04",
+            "request": "launch",
+            "mainClass": "Byunin.Study.Study02.number04",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "number05",
+            "request": "launch",
+            "mainClass": "Byunin.Study.Study02.number05",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "number06",
+            "request": "launch",
+            "mainClass": "Byunin.Study.Study02.number06",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "number07",
+            "request": "launch",
+            "mainClass": "Byunin.Study.Study02.number07",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "number08",
+            "request": "launch",
+            "mainClass": "Byunin.Study.Study02.number08",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "number09",
+            "request": "launch",
+            "mainClass": "Byunin.Study.Study02.number09",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "number10",
+            "request": "launch",
+            "mainClass": "Byunin.Study.Study02.number10",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "number11",
+            "request": "launch",
+            "mainClass": "Byunin.Study.Study02.number11",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "number12",
+            "request": "launch",
+            "mainClass": "Byunin.Study.Study02.number12",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "number13",
+            "request": "launch",
+            "mainClass": "Byunin.Study.Study02.number13",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "number14",
+            "request": "launch",
+            "mainClass": "Byunin.Study.Study02.number14",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "number15X",
+            "request": "launch",
+            "mainClass": "Byunin.Study.Study02.number15X",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "number01(1)",
+            "request": "launch",
+            "mainClass": "Byunin.Study.Study03.number01",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "number02(1)",
+            "request": "launch",
+            "mainClass": "Byunin.Study.Study03.number02",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "number03(1)",
+            "request": "launch",
+            "mainClass": "Byunin.Study.Study03.number03",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "number04(1)",
+            "request": "launch",
+            "mainClass": "Byunin.Study.Study03.number04",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "number05(1)",
+            "request": "launch",
+            "mainClass": "Byunin.Study.Study03.number05",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "number06(1)",
+            "request": "launch",
+            "mainClass": "Byunin.Study.Study03.number06",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "number07(1)",
+            "request": "launch",
+            "mainClass": "Byunin.Study.Study03.number07",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "number08(1)",
+            "request": "launch",
+            "mainClass": "Byunin.Study.Study03.number08",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Exam01",
+            "request": "launch",
+            "mainClass": "Inhoe.Comparator.Exam01",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "C006",
+            "request": "launch",
+            "mainClass": "Inhoe.Paiza.C.C006",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "C018",
+            "request": "launch",
+            "mainClass": "Inhoe.Paiza.C.C018",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "C029",
+            "request": "launch",
+            "mainClass": "Inhoe.Paiza.C.C029",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "C031",
+            "request": "launch",
+            "mainClass": "Inhoe.Paiza.C.C031",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "C043",
+            "request": "launch",
+            "mainClass": "Inhoe.Paiza.C.C043",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "C065",
+            "request": "launch",
+            "mainClass": "Inhoe.Paiza.C.C065",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "C069",
+            "request": "launch",
+            "mainClass": "Inhoe.Paiza.C.C069",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "C102",
+            "request": "launch",
+            "mainClass": "Inhoe.Paiza.C.C102",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "C109",
+            "request": "launch",
+            "mainClass": "Inhoe.Paiza.C.C109",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "C112",
+            "request": "launch",
+            "mainClass": "Inhoe.Paiza.C.C112",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "C144",
+            "request": "launch",
+            "mainClass": "Inhoe.Paiza.C.C144",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "C148",
+            "request": "launch",
+            "mainClass": "Inhoe.Paiza.C.C148",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch01",
+            "request": "launch",
+            "mainClass": "Inhoe.Search.BinarySearch01",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch02",
+            "request": "launch",
+            "mainClass": "Inhoe.Search.BinarySearch02",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "HashSearch01",
+            "request": "launch",
+            "mainClass": "Inhoe.Search.HashSearch01",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "LinearSearch01",
+            "request": "launch",
+            "mainClass": "Inhoe.Search.LinearSearch01",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "LinearSearch02",
+            "request": "launch",
+            "mainClass": "Inhoe.Search.LinearSearch02",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "QuickSort",
+            "request": "launch",
+            "mainClass": "Inhoe.Sort.QuickSort",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test04",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study00.Test04",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test05",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study00.Test05",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test06",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study00.Test06",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test07",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study00.Test07",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test08",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study00.Test08",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test09",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study00.Test09",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test10",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study00.Test10",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test01",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study01.Test01",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test02",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study01.Test02",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test03",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study01.Test03",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test04X",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study01.Test04X",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test05(1)",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study01.Test05",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test06(1)",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study01.Test06",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test07(1)",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study01.Test07",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test08(1)",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study01.Test08",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test09(1)",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study01.Test09",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test10(1)",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study01.Test10",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test11",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study01.Test11",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test12",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study01.Test12",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test13",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study01.Test13",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test14",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study01.Test14",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test15X",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study01.Test15X",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test16",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study01.Test16",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test17X",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study01.Test17X",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test18",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study01.Test18",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test20",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study01.Test20",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Text19X",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study01.Text19X",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test01(1)",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study02.Test01",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test02(1)",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study02.Test02",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test03(1)",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study02.Test03",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test04(1)",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study02.Test04",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test05(2)",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study02.Test05",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test06(2)",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study02.Test06",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test07(2)",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study02.Test07",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test08(2)",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study02.Test08",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test09(2)",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study02.Test09",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test10(2)",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study02.Test10",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test11(1)",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study02.Test11",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test12(1)",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study02.Test12",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test13(1)",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study02.Test13",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test14(1)",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study02.Test14",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test15",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study02.Test15",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test01(2)",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study03.Test01",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test02(2)",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study03.Test02",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test03(2)",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study03.Test03",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test04(2)",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study03.Test04",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test05(3)",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study03.Test05",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test06(3)",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study03.Test06",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test07(3)",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study03.Test07",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test12(2)",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study03.Test12",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test13(2)",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study03.Test13",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test15(1)",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study03.Test15",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test01(3)",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study04.Test01",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test02(3)",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study04.Test02",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test03(3)",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study04.Test03",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Test04(3)",
+            "request": "launch",
+            "mainClass": "Inhoe.Study.Study04.Test04",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Week2_1",
+            "request": "launch",
+            "mainClass": "Minsu.Study.Study02.Week2_1",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Week2_10",
+            "request": "launch",
+            "mainClass": "Minsu.Study.Study02.Week2_10",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Week2_11",
+            "request": "launch",
+            "mainClass": "Minsu.Study.Study02.Week2_11",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Week2_12",
+            "request": "launch",
+            "mainClass": "Minsu.Study.Study02.Week2_12",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Week2_13",
+            "request": "launch",
+            "mainClass": "Minsu.Study.Study02.Week2_13",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Week2_14",
+            "request": "launch",
+            "mainClass": "Minsu.Study.Study02.Week2_14",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Week2_15",
+            "request": "launch",
+            "mainClass": "Minsu.Study.Study02.Week2_15",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Week2_2",
+            "request": "launch",
+            "mainClass": "Minsu.Study.Study02.Week2_2",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Week2_3",
+            "request": "launch",
+            "mainClass": "Minsu.Study.Study02.Week2_3",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Week2_4",
+            "request": "launch",
+            "mainClass": "Minsu.Study.Study02.Week2_4",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Week2_5",
+            "request": "launch",
+            "mainClass": "Minsu.Study.Study02.Week2_5",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Week2_6",
+            "request": "launch",
+            "mainClass": "Minsu.Study.Study02.Week2_6",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Week2_7",
+            "request": "launch",
+            "mainClass": "Minsu.Study.Study02.Week2_7",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Week2_8",
+            "request": "launch",
+            "mainClass": "Minsu.Study.Study02.Week2_8",
+            "projectName": "Java_9a055e57"
+        },
+        {
+            "type": "java",
+            "name": "Week2_9",
+            "request": "launch",
+            "mainClass": "Minsu.Study.Study02.Week2_9",
+            "projectName": "Java_9a055e57"
+        }
+    ]
+}
