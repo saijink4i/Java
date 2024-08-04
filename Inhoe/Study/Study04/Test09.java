@@ -54,7 +54,6 @@ public class Test09 {
                     System.out.print((listC.get(i)+1) + " ");
             }
         }
-
     }
     
     static void combination(Integer[] arr, boolean[] visited, int start, int n, int r) {
