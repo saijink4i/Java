@@ -15,7 +15,7 @@ public class number01 {
             arr[i] = Integer.parseInt(br.readLine());
         }
 
-        //quicksort(arr);
+        //quicksort(arr); //백준에서는 퀵소트로 처리시 타임오버
         Arrays.sort(arr);
 
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
