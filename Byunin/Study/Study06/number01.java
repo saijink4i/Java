@@ -2,9 +2,7 @@ package Byunin.Study.Study06;
 
 
 import java.io.*;
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 public class number01 {
     public static void main(String[] args) throws IOException {
