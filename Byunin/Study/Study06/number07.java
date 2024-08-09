@@ -3,7 +3,7 @@ package Byunin.Study.Study06;
 import java.io.*;
 import java.util.*;
 
-public class number07x {
+public class number07 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
@@ -24,7 +24,12 @@ public class number07x {
 
     }
     private static int MaxCouncilCheck(List<List<Integer>> lists) {//종료 시간이 작을 수록 회의시간이 짧으므로 좀 더 많은 회의를 집어넣을 수 있다.
-        lists.sort(Comparator.comparingInt(o -> o.get(1))); //회의 종료시간을 기준으로 오름차순 정렬
+        lists.sort((a,b)->{
+            if(a.get(1).equals(b.get(1))) { //만약 종료시간이 같다면 시작시간을 기준으로 정렬
+                return a.get(0).compareTo(b.get(0));
+            }
+            return a.get(1).compareTo(b.get(1));
+        });//회의 종료시간을 기준으로 오름차순 정렬
         int max = 1; //최대로 집어넣을 수 있는 회의 갯수, 첫 종료시간으로 초기화를 했으므로 1부터 시작
         int index = 1; //배열 순회를 위한 인덱스
         int endtime = lists.get(0).get(1); //회의 종료시간. 오름차순으로 정렬했으므로 첫 종료시간으로 초기화
@@ -32,9 +37,6 @@ public class number07x {
             if(endtime<=lists.get(index).get(0)){ //이전 회의의 종료시간이 이후 회의의 시작시간보다 빠르거나 같다면
                 endtime=lists.get(index).get(1); //이후 회의의 종료시간을 endtime에 저장
                 max++; //회의 횟수 증가
-            }
-            if(endtime==lists.get(lists.size()-1).get(1)){
-                break;
             }
             index++;
         }
