@@ -48,5 +48,5 @@ public class number08 {
         bw.write(average+"\n"+middle+"\n"+mod+"\n"+range+"\n");
         bw.flush();
         bw.close();
-    }
+    } //그냥 변수 선언안하고 출력하면 더 빠르려나
 }
