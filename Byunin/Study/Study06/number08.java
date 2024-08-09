@@ -32,11 +32,11 @@ public class number08 {
         List<Integer> keyset = new ArrayList<>(map.keySet());
         keyset.sort((o1, o2) -> map.get(o2).compareTo(map.get(o1))); //최빈값을 구하기 위해 value값을 기준으로 내림차순 정렬
         List<Integer> list = new ArrayList<>();
-        for(int i = 0 ; i < keyset.size() ; i++){
-            if(!map.get(keyset.get(0)).equals(map.get(keyset.get(i)))){ //최빈값이 여러개 있는 경우를 확인
+        for (Integer integer : keyset) {
+            if (!map.get(keyset.get(0)).equals(map.get(integer))) { //최빈값이 여러개 있는 경우를 확인
                 break;
             }
-            list.add(keyset.get(i));
+            list.add(integer);
         }
         if(list.size() == 1){//최빈값이 1개뿐일때
             mod = list.get(0);
