@@ -27,10 +27,10 @@ public class number09 {
     }
     private static void findnumber( Map<Integer, Integer> numberlist, List<Integer> Wantnumber) throws IOException {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-        for(int i = 0; i < Wantnumber.size(); i++){
-            if(numberlist.containsKey(Wantnumber.get(i))){
-                bw.write(numberlist.get(Wantnumber.get(i))+" ");
-            }else{
+        for (Integer integer : Wantnumber) {
+            if (numberlist.containsKey(integer)) {
+                bw.write(numberlist.get(integer) + " ");
+            } else {
                 bw.write("0 ");
             }
         }

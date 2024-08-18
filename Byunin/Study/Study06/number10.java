@@ -9,7 +9,7 @@ public class number10 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
-        List<Integer> ranknum = new ArrayList<Integer>();
+        List<Integer> ranknum = new ArrayList<>();
         for(int i = 0; i < n; i++){
             ranknum.add(Integer.parseInt(br.readLine()));
         }
