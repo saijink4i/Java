@@ -11,7 +11,7 @@ public class number01 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int l = Integer.parseInt(br.readLine());
         StringTokenizer st = new StringTokenizer(br.readLine());
-        List<Integer> arr = new ArrayList<Integer>();
+        List<Integer> arr = new ArrayList<>();
         for (int i = 0; i < l; i++) {
             arr.add(Integer.parseInt(st.nextToken()));
         }
@@ -26,7 +26,7 @@ public class number01 {
             bw.write(String.valueOf(0));
         }else{
             Collections.sort(arr);
-            int count = 0;
+            int count;
             int min = 0;
             int max = 1001;
             for(int i = 0; i < l; i++) {
